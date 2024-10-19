@@ -1,5 +1,3 @@
-import random
-
 class Tile:
 
     def __init__(self, suit, rank, tile_id):
@@ -13,7 +11,4 @@ class Tile:
         
     def getTile(self):
         return f"{self.rank} of {self.suit} (ID: {self.tile_id})" if self.rank is not None else f"{self.suit} tild (ID: {self.tile_id})"
-
-
-
 

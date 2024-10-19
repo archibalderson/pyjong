@@ -1,4 +1,4 @@
-from tiles import Tile
+from tile import Tile
 import random
 
 def make_batch(suit, rank):
